@@ -9,6 +9,11 @@ TagManager:
   - RightWall
   - UpWall
   - DownWall
+  - RedCube
+  - CubeSolid
+  - CubeSolidBlue
+  - BlueCube
+  - Goal
   layers:
   - Default
   - TransparentFX

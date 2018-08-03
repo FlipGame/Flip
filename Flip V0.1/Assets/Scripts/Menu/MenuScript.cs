@@ -7,12 +7,12 @@ public class MenuScript : MonoBehaviour {
 
 	public void PlayGame()
 	{
-		SceneManager.LoadScene("1");
+		SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex+1);
 	}
-
 	public void QuitGame()
 	{
-		Application.Quit();
+		print("aa");
+		Application.Quit(); 
 	}
 	
 }
